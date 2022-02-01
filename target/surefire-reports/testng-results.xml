@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="4202" started-at="2022-01-31T22:26:39 MSK" finished-at="2022-01-31T22:26:43 MSK">
+    <groups>
+    </groups>
+    <test name="C:/Users/Lenovo/calculator/GitHub_UI_API" duration-ms="4202" started-at="2022-01-31T22:26:39 MSK" finished-at="2022-01-31T22:26:43 MSK">
+      <class name="SignInTest">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:SignInTest@26582ca]" name="signIn" is-config="true" duration-ms="3715" started-at="2022-01-31T22:26:39 MSK" finished-at="2022-01-31T22:26:43 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="testSignIn()[pri:0, instance:SignInTest@26582ca]" name="testSignIn" duration-ms="259" started-at="2022-01-31T22:26:43 MSK" finished-at="2022-01-31T22:26:43 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method status="PASS" signature="clearCookiesAndLocalStorage()[pri:0, instance:SignInTest@26582ca]" name="clearCookiesAndLocalStorage" is-config="true" duration-ms="41" started-at="2022-01-31T22:26:43 MSK" finished-at="2022-01-31T22:26:43 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:SignInTest@26582ca]" name="close" is-config="true" duration-ms="654" started-at="2022-01-31T22:26:43 MSK" finished-at="2022-01-31T22:26:44 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SignInTest -->
+    </test> <!-- C:/Users/Lenovo/calculator/GitHub_UI_API -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
