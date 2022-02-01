@@ -16,10 +16,10 @@ public class LoginPage extends BasePage {
 
     public LoginPage login(String name, String password){
         driver.findElement(usernameInput).sendKeys(name);
-        try {
+        driver.findElement(passwordInput).sendKeys(password);
+                try {
             Thread.sleep(5000);
         } catch (Exception e) {}
-        driver.findElement(passwordInput).sendKeys(password);
         driver.findElement(enterButton).click();
         return this;
     }
