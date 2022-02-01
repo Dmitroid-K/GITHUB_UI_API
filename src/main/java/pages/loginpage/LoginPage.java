@@ -14,9 +14,11 @@ public class LoginPage extends BasePage {
     private final By passwordInput = By.id("password");
     private final By enterButton = By.name("commit");
 
-    public LoginPage login(String name, String password) throws Exception{
+    public LoginPage login(String name, String password){
         driver.findElement(usernameInput).sendKeys(name);
-        Thread.sleep(5000);
+        try {
+            Thread.sleep(5000);
+        } catch (Exception e) {}
         driver.findElement(passwordInput).sendKeys(password);
         driver.findElement(enterButton).click();
         return this;
